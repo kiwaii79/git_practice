@@ -1,20 +1,55 @@
-h1 {
-	font-family: Cambria;
-	color: DeepSkyBlue;
-	font-size: 3rem;
-	border: 2px solid cyan	
+#logo {
+	border: 2px solid black;
 }
 
+nav-header {
+	background-color: blue
+}
+
+.opener {
+	background-color: rgba(5,4,2,0.1);
+}
 body {
-  background-image: url("whiteBird.jpg");
-  background-size: cover
+	margin-top: 100px;
+	height: 100%
+}
+.jumbotron {
+	background-image: url("ClimbingFit2.png");
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
 }
 
-#uno {	
-	display: flex;
-	flex-wrap: wrap;
+.jumbotron h1 {
+	color: #fff;
+	font-family: Impact;
+	letter-spacing: 2px
+	
 }
 
-.nav {
-  font-size: 1.3rem;
+.jumbotron p {
+	color: #fff
+	
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.aboutMe {
+	border: 2px solid black;
+	margin-bottom: 50px
+}
+
+.bold {
+	font-weight: bold
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
