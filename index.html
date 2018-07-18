@@ -1,7 +1,7 @@
 <html>
 <head>
-<style>
-	#logo {
+	<style>
+		#logo {
 	border: 2px solid black;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .jumbotron h1 {
-	color: 0080ff;
+	color: #fff
 	font-family: Impact;
 	letter-spacing: 2px
 	
@@ -56,8 +56,9 @@ body {
     text-align: center;
     text-decoration: none;
 }
-
 	</style>
+	  
+<!--each table should be a sequence of progressions...-->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -67,70 +68,51 @@ body {
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="css" href="Climbing.css">
+<link rel="stylesheet" type="css" href="Climbingdraft.css">
 <!-- Social Media buttons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body data-spy="scroll" data-offset="20">
 
-<div class ="container">
+<div class ="container" style="width: 100%">
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="#">Home</a>
 	</div>
 	<ul class="nav navbar-nav">
 		<li class="active"><a href="#p0">Basic Workout</a></li>
-		<li><a href="#p1">Core (Chest)</a></li>
-		<li><a href="#p2">Core(Back)</a></li>
+		<li><a href="#p1">Chest</a></li>
+		<li><a href="#p2">Back</a></li>
 		<li><a href="#p3">Arms</a></li>
 		<li><a href="#p4">Legs</a></li>	
-		<li><a href="#p5">About Me</a></li>	
+		<li><a href="#p5">Forming a Plan</a></li>	
+		<li><a href="#p6">About Me</a></li>	
 	</ul>
 </nav>
 
 <div class="jumbotron">
-  <h1 class ="opener" align="center"> TAK Training</h1> 
+  <h1 style="color: #fff" class ="opener" align="center"> TAK Training </h1> 
   <p class="opener">Elevate your Rock Climbing using targeted, structured exercises to enhance performance and consistency.</p> 
 </div>
 <div class="container">
 <!--Links  -->
-  <h2>Welcome! </h2>
-  <p>Since climbing-specific training information can be hard to find, I've decided to consolidate and share most of my training knowledge in one place just for you!</p>
-  <p>Below, you'll find a number of exercises that will improve your performance regardless of whether you're a beginner trying to get a fast start or an experienced one trying to get to the next level. 
+  <h2>Hello! </h2>
+  <p>Are you new to climbing but trying to get a fast start or an experienced one trying to get to the next level?  
+  If you are, these exercises will help you meet your goals by challenging you in fundamental and unfamiliar ways. 
   There are a few common characteristics of the exercises I have included: </p>
-  <p> <span class="bold">Bodyweight Only:</span> Being able to manipulate your body is one of the most important aspects of climbing and because this is 
-  already very challenging, added weight is usually unnecessary.  Also, training in this fashion reduces the need for equipment.
-  The benefits of added weight, however, include being able to execute powerful, dynamic moves and climbing with outdoor gear.  </p>
+  <p> <span class="bold">Bodyweight Only:</span> Being able to manipulate your body is one of the most important aspects of climbing and because this is already
+  very challenging, added weight is usually unnecessary. </p>
   <p>
-  <span class="bold">Free-weight:</span> By not relying on machines or other isolating movements, many muscles will be worked out at once.  This saves time, targets relevant stabilizing muscles, and produces greater body awareness.
-  As a result of this, however, proper form is very important. I will provide details about lesser known items but supplementary form advice is always recommended.
+  <span class="bold">Free-weight:</span> Being able to manage mobile weight focuses your core and saves time by working out multiple muscles at once. As a result of this, however, proper form is very important.
   </p>
   <p>
-  <span class="bold">Targeted:</span> While climbing can challenge almost every part of your body, it is most efficient to train only certain parts to save time/energy and prevent unnecessary mass gain.
+  <span class="bold">Targeted:</span> While climbing can challenge almost every part of your body, it is most efficient to train only certain parts in order to 
+   have noticeable progress, save time/energy and prevent unnecessary mass gain.
   </p>
   <p>
   <span class="bold">No Finger/Tendon Exercises:</span> These will be added later.
   </p>
-  <h3> To form a plan, pick 2-3 exercises in each of the following areas and do them 3-4 times a week.  
-  You should stick to these for at least ~6 weeks to see results instead of attempting "muscle confusion". </h3>
-  <p class="well">If training power, complete ~5 sets each with ~5 reps. 
-  Take up to ~3 minutes rest between sets.  You can take more or less time as long as you feel fully recovered before starting new sets.  
-  During the following week, you should try to add 1 more rep to each set.  
-  Then, once you can do 7-10 reps per set, you would need to add ~5% more weight (factoring in bodyweight) and reset to ~5 reps/set. </p> 
-  <p class="well">If training endurance, complete ~3 sets each with 10 reps. Take .5-1 minute rest between sets. 
-  You want to take shorter rests so that you eventually work out your muscles to exhaustion.  
-  Also, you should do as many reps as you are able to in the final set. 
-  During the following week, you should try to add 1 more rep to each set.  
-  Then, once you can do 15-20 reps per set, you should add ~5% more weight (factoring in bodyweight) and reset to ~10 reps/set</p> 
-  <p>Don't overexert yourself. This goes without saying but there are a lot of options at your disposal if you're feeling overwhelmed:
-  	</br>Reduce weight
-  	</br>Switch to a different variation of the exercise
-  	</br>Hold the contracted position (isometric)
-  	</br>Come out of the contracted position slowly (perform a negative/eccentric)
-  	</br>Stop the set
-  </br>As you can see, there are many options that aren't even mutually exclusive that can keep you safe from injury but still keep your time-under-tension high per set (~40sec).
-  	</p>
 </div>
 
 <div class="container" id="p0">
@@ -143,50 +125,61 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
+        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Ring Hold Isometrics</td>
+        <td>Ring Dip Isometrics</td>
         <td>Easy</td>
         <td>Triceps, Shoulders</td>
+        <td>Mantling</td>
       </tr>
       <tr>
         <td>Ring Push-ups</td>
         <td>Easy</td>
         <td>Triceps, Pecs</td>
+        <td>Pushing Strength</td>
       </tr>
       <tr>
         <td>X Push-ups</td>
         <td>Easy</td>
         <td>Anterior</td>
+        <td>Core Tension</td>
       </tr>
        <tr>
-        <td>Toes to Bar</td>
+        <td>Leg-ups</td>
         <td>Easy</td>
         <td> Lower Abs</td>
+        <td>Keeping Feet On</td>
       </tr>
         </tr>
        <tr>
         <td>Pull-ups</td>
         <td>Easy</td>
         <td>Triceps, Lats</td>
+        <td>Ubiqutous</td>
       </tr>
     </tbody>
   </table>
-  <p>If you would like a simple workout to boost overall ability, these exercises are for you.
-  </br><span class="bold">Ring hold isometric </span> By doing these, you can calibrate yourself and feel out where to center your weight between the rings.  Start with a set of gymnastics rings shoulder-width apart and at waist height. 
-  Stand between the rings and push down on them hard. 
-  Once this engages your muscles, jump off the ground and hold yourself up in this mantling position 
-  (similar to movement you use when getting out of a pool via the side).
-  </br><span class="bold">Ring Push-ups:</span> With the rings shoulder-width apart and a few inches off the ground, get into a push-up position with the ring openings facing towards you.
-  Perform push-ups as you normally would, with your hands moving further apart as you go down.
-  </br><span class="bold">X Push-ups: </span>These are almost a total-body exercise.  Assume a normal push-up position with your legs and arms spread wider than your shoulders.  
-  Your arms should also be higher than shoulder height. Perform push-ups as you normally would. 
-  </br><span class="bold">Toes to Bar: </span> Leg-ups will help your feet on roofs. Hang off of a bar and lift your legs up and above your head.
-  Make sure to engage your abs (posterior pelvic tilt) and visualize pulling your feet towards your head instead of flipping them over your waist.
-  </br><span class="bold">Push-ups: </span>One would be remiss to not advise these.
-  </p>
+  <div class="container">
+  <button data-toggle="collapse" data-target="#myCollapsible" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible" class="collapse">
+  	<p>If you would like a simple workout to boost overall ability, these exercises are for you.
+  	</br><span class="bold">Ring hold isometric </span> By doing these, you can calibrate yourself and feel out where to center your weight between the rings.  Start with a set of gymnastics rings shoulder-width apart and at waist height. 
+  	Stand between the rings and push down on them hard. 
+  	Once this engages your muscles, jump off the ground and hold yourself up in this mantling position 
+  	(similar to movement you use when getting out of a pool via the side).
+  	</br><span class="bold">Ring Push-ups:</span> With the rings shoulder-width apart and a few inches off the ground, get into a push-up position with the ring openings facing towards you.
+  	Perform push-ups as you normally would, with your hands moving further apart as you go down.
+  	</br><span class="bold">X Push-ups: </span>These are almost a total-body exercise.  Assume a normal push-up position with your legs and arms spread wider than your shoulders.  
+  	Your arms should also be higher than shoulder height. Perform push-ups as you normally would. 
+  	</br><span class="bold">Leg-ups: </span> Leg-ups will help your feet on roofs. Lie on the ground with your back touching it.  Lift your legs up and above your head.
+  	Make sure to keep your lower back on the ground and visualize pulling your feet towards your head instead of flipping them over your waist.
+  	</br><span class="bold">Push-ups: </span>One would be remiss to not advise these.
+  	</p>
+  	</div>
+  </div>
 </div>
  
 
@@ -200,6 +193,7 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
+        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -207,38 +201,46 @@ body {
         <td>Knees/Full Ring Flies</td>
         <td>Hard</td>
         <td>Shoulders</td>
+        <td>Compression Strength</td>
       </tr>
       <tr>
         <td>Knees/Full Superman Flies</td>
         <td>Hard</td>
         <td>Shoulders, Abs</td>
+        <td>Core Tension</td>
       </tr>
       <tr>
         <td>Ring Dips</td>
         <td>Medium</td>
         <td>Triceps, Pecs</td>
+        <td>Mantling</td>
       </tr>
       <tr>
         <td>Dragon Flags</td>
         <td>Hard</td>
         <td>Abs, Lats</td>
+        <td>Keeping Feet On</td>
       </tr>
       <tr>
         <td>Planche Push-ups</td>
         <td>Medium</td>
         <td>Triceps, Pecs</td>
+        <td>Pushing Strength</td>
       </tr>
       <tr>
         <td>Lying/Hanging Windshield Wipers</td>
         <td>Hard</td>
         <td>Obliques</td>
+        <td>Swinging Feet to Opposing Wall</td>
       </tr>
     </tbody>
   </table>
+<button data-toggle="collapse" data-target="#myCollapsible1" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible1" class="collapse">  
   <p>
-  <span class="bold">Ring Flies: </span>One of my favorite exercises that will allow you to hang more actively on the wall and build compression strength.  Set the rings shoulder-width apart and a few inches off the ground.
+  <span class="bold">Ring Flies: </span>This is one of my favorite exercises that I've seen Alex Megos do. Ring Flies will allow you to hang more actively on the wall and build compression strength.  Set the rings shoulder-width apart and a few inches off the ground.
   Put your hands into the rings and rest on your knees.  
- </br> Variations: 
+  </br> Variations: 
   Lean onto your hands and bring them apart so your nose almost touches the ground.
   To target your pecs more, you can perform these with your arms rotated outwards so your palms are facing away from you.
   To adjust difficulty you can allow/prevent your feet from lifting up as you go down.
@@ -250,6 +252,8 @@ body {
   </br><span class="bold">Dragon Flags: </span>Dragon Flags are extremely difficult so one should work up to them using leg-ups and negatives.
   </br><span class="bold">Planche Push-ups: </span>This an easily-adjustable gymnastics exercise that builds pushing power.
   </p>
+  </div>
+  </div>
 </div>
 
 <div class="container" id="p2">
@@ -262,6 +266,7 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
+        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -269,31 +274,41 @@ body {
         <td>Scapular pull-ups</td>
         <td>Easy</td>
         <td>Trapezius</td>
+        <td>Ubiquitous</td>
       </tr>
       <tr>
         <td>Standing/Hanging Inverted Rows</td>
         <td>Easy</td>
         <td>Trapezius</td>
+        <td>Roofs</td>
       </tr>
       <tr>
         <td>Tucked/Straddled/Full Front Lever</td>
         <td>Hard</td>
         <td>Lats, Trapezius, Triceps</td>
+        <td>Roofs</td>
       </tr>
       <tr>
         <td>Wide-set Pull-ups</td>
         <td>Medium</td>
         <td>Triceps, Lats</td>
+        <td>Ubiquitous</td>
       </tr>
     </tbody>
   </table>
+  <button data-toggle="collapse" data-target="#myCollapsible2" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible2" class="collapse">
   <p>
   <span class="bold">Scapular Pull-ups: </span>Acquiring scapula (shoulder blade) strength results in greater control of your arms since your scapula helps control them.
   The way to perform these is to hang on a bar with your hands shoulder-width.
   First, you want to sink your head between your shoulders then you want to shrug so you enter an active hang.
   </br><span class="bold">Superman Flies: </span>This is similar to the Ring Flies except when you lean onto your hands, you bring them forward.
   In this way, they stay roughly shoulder-width apart as you go down. This will target your abs more than the normal Flies.
+  </br><span class="bold">Front Lever: </span> The Front Lever is well-known for being the one of the hardest pushing/core exercises amongst gymnasts and for good reason. 
+  If you need inspiration, just watch Sean McColl doing it.
   </p>
+  </div>
+  </div>
 </div>
 
 <div class="container" id="p3">
@@ -306,6 +321,7 @@ body {
         <th>Exercise</th>
         <th>Sets</th>
         <th>Reps</th>
+        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -313,44 +329,54 @@ body {
         <td>Assisted One-arm Pull-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
+        <td>Ubiquitous</td>
       </tr>
       <tr>
         <td>Type-writers</td>
         <td>Medium</td>
         <td>Triceps</td>
+        <td>Lockoffs</td>
       </tr>
       <tr>
         <td>Bar to Chest</td>
         <td>Medium</td>
         <td>Triceps</td>
+        <td>Dynos</td>
       </tr>
       <tr>
         <td>Muscle-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
+        <td>Dynos</td>
       </tr>
        <tr>
         <td>Weighted Pull-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
+        <td>Dynos</td>
       </tr>
       <tr>
         <td>One-arm Static Bar Holds (30sec)</td>
         <td>Medium</td>
         <td>Hands</td>
+        <td>Ubiquitous</td>
       </tr>
     </tbody>
   </table>
+  <button data-toggle="collapse" data-target="#myCollapsible3" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible3" class="collapse">
   <p>
   <span class="bold">Type-writers: </span> While lock-off strength is important it is debatable whether simply doing it is the best way of improving it.
   </br><span class="bold">Bar to Chest: </span> These are pull-ups that are dynamic and build explosive power.
   </br><span class="bold">One-arm Pull-up: </span> While difficult, make sure you squeeze the bar as hard as you can, start with your body perpendicular to the bar, and fold your body inwards.
   </p>
+  </div>
+  </div>
 </div>
 
 <div class="container" id="p4">
 <div class="page-header"> 
-	<h1 class="bg-info"> Lower Body </h1>
+	<h1 class="bg-info"> Legs </h1>
 	</div>
   <table class = "table table-striped">
     <thead>
@@ -383,10 +409,15 @@ body {
       </tr>
     </tbody>
   </table>
+  <button data-toggle="collapse" data-target="#myCollapsible4" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible4" class="collapse">
   <p>
   Lower body strength is not as important as lower body flexibility, namely in the hip flexors and adductors. 
-  This is because flexibility is what allows you to place head-high heel hooks, reach very far footholds, and stay closer to the wall.
-  Strength should only be a key concern if you can't do a single pistol squat on each leg which would be required when stepping off a single foothold.
+  This is because flexibility is what allows you to place head-high heel hooks, reach very far footholds, and stay closer to the wall 
+  whereas strength is really only tested when stepping off a single foothold with one leg.
+  A good benchmark is being able to do a single pistol squat on each leg.
+</div>
+</div>
 </div>
 
 <!--
@@ -396,6 +427,30 @@ body {
 </p>
 
 <div class='container' id="p5">
+	<div class="page-header"> <h1> Forming a Plan </h1></div>
+
+  <h3> Form a plan! Pick 2-3 exercises under each of the following headers and do them 3-4 times a week.  
+  You should stick to these for at least ~6 weeks to see results instead of attempting "muscle confusion". </h3>
+  <p class="well">If training power, complete ~5 sets each with ~5 reps. 
+  Take up to ~3 minutes rest between sets.  You can take more or less time as long as you feel fully recovered before starting new sets.  
+  During the following week, you should try to add 1 more rep to each set.  
+  Then, once you can do 7-10 reps per set, you would need to add ~5% more weight (factoring bodyweight) and reset to ~5 reps/set. </p> 
+  <p class="well">If training endurance, complete ~3 sets each with 10 reps. Take .5-1 minute rest between sets. 
+  You want to take shorter rests so that you work out your muscles to exhaustion.  
+  Also, you should do as many reps as you are able in the final set. 
+  During the following week, you should try to add 1 more rep to each set.  
+  Then, once you can do 15-20 reps per set, you would need to add ~5% more weight (factoring bodyweight) and reset to ~10 reps/set</p> 
+  <p>Don't overexert yourself. This goes without saying but there are a lot of options at your disposal you're feeling overworked:
+  	</br>Reduce weight
+  	</br>Switch to a different variation of the exercise
+  	</br>Hold in the contracted position (isometric)
+  	</br>Come out of the contracted position slowly (perform a negative/eccentric)
+  	</br>Stop the set
+  </br>As you can see, there are many options that aren't even mutually exclusive that can keep you safe from injury but still keep your time-under-tension high per set (~40sec).
+  	</p>
+</div>
+
+<div class='container' id="p6">
 	<div class="page-header"> 
 	<h1> Who Am I? </h1>
 	</div>
