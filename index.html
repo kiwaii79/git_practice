@@ -1,7 +1,7 @@
 <html>
 <head>
-	<style>
-		#logo {
+<style
+       #logo {
 	border: 2px solid black;
 }
 
@@ -21,6 +21,7 @@ body {
  	background-position: center;
  	background-repeat: no-repeat;
  	background-size: cover;
+ 	
 }
 
 .jumbotron h1 {
@@ -33,6 +34,11 @@ body {
 .jumbotron p {
 	color: #fff
 	
+}
+
+.bodyarea {
+	-webkit-filter: opacity(30%);
+	filter: opacity(30%);
 }
 
 .center {
@@ -56,9 +62,11 @@ body {
     text-align: center;
     text-decoration: none;
 }
-	</style>
-	  
+</style>
 <!--each table should be a sequence of progressions...-->
+
+
+
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -86,20 +94,106 @@ body {
 		<li><a href="#p2">Back</a></li>
 		<li><a href="#p3">Arms</a></li>
 		<li><a href="#p4">Legs</a></li>	
-		<li><a href="#p5">Forming a Plan</a></li>	
+		<li><a href="#p5">Reps + Sets</a></li>	
 		<li><a href="#p6">About Me</a></li>	
 	</ul>
 </nav>
+</div>
 
 <div class="jumbotron">
-  <h1 style="color: #fff" class ="opener" align="center"> TAK Training </h1> 
+  <div class="container" style="display: flex;
+    justify-content: center;
+    align-items: center;">
+  <h1 style="color: #fff; height: 100vh" class ="opener" align="center"> TAK TRAINING </h1> 
   <p class="opener">Elevate your Rock Climbing using targeted, structured exercises to enhance performance and consistency.</p> 
+  </div>
 </div>
+
+<div class="container" style="margin-bottom: 30px">
+	<div class="row">
+    	<div class="col-sm-4">
+        	<div class="part-image">
+        		<a href="#p0">
+            	<img src="ropeclimb2.jpg" class="img-responsive bodyarea">
+            	</a>
+        <div class="part-text">
+        	<h3>Basic Workout</h3>
+        </div> 
+        </div>
+        </div>
+            
+        <div class="col-sm-4">
+        	<div class="part-image">
+				<a href="#p1">
+            	<img src="chest2.jpg" class="img-responsive bodyarea">
+            	</a>        
+            	<div class="part-text">
+        	<h3>Chest</h3>
+   	 	</div>
+		</div>
+   		</div>
+   		
+   		<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="#p2">
+            	<img src="back2.jpg" class="img-responsive bodyarea">
+            	</a>        
+            	<div class="part-text">
+        	<h3>Back</h3>
+   	 	</div>
+		</div>
+   		</div>
+	</div>
+</div>	
+
+<div class="container">
+	<div class="row">
+    	<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="#p3">
+            	<img src="Rings.png" class="img-responsive bodyarea">
+            	</a>        
+            	<div class="part-text">
+        	<h3>Arms</h3>
+        </div> 
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+        	<div class="part-image">
+				<a href="#p4">
+            	<img src="legs3.jpg" class="img-responsive bodyarea">
+            	</a>        
+            	<div class="part-text">
+        	<h3>Legs</h3>
+   	 	</div>
+		</div>
+   		</div>
+   		
+   		<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="#p5">
+            	<img src="plan1.jpg" class="img-responsive bodyarea">
+            	</a>        
+            	<div class="part-text">
+        	<h3>Reps + Sets</h3>
+   	 	</div>
+		</div>
+   		</div>
+	</div>
+	
+</div>
+
+
 <div class="container">
 <!--Links  -->
   <h2>Hello! </h2>
   <p>Are you new to climbing but trying to get a fast start or an experienced one trying to get to the next level?  
   If you are, these exercises will help you meet your goals by challenging you in fundamental and unfamiliar ways. 
+  </br>
+  </br>
+  <button data-toggle="collapse" data-target="#myCollapsible5" class="btn btn-primary">Show/Hide Exercise Themes</button>
+    <div id="myCollapsible5" class="collapse"> 
   There are a few common characteristics of the exercises I have included: </p>
   <p> <span class="bold">Bodyweight Only:</span> Being able to manipulate your body is one of the most important aspects of climbing and because this is already
   very challenging, added weight is usually unnecessary. </p>
@@ -108,11 +202,9 @@ body {
   </p>
   <p>
   <span class="bold">Targeted:</span> While climbing can challenge almost every part of your body, it is most efficient to train only certain parts in order to 
-   have noticeable progress, save time/energy and prevent unnecessary mass gain.
+   see noticeable progress, save time/energy and prevent unnecessary mass gain.
   </p>
-  <p>
-  <span class="bold">No Finger/Tendon Exercises:</span> These will be added later.
-  </p>
+  
 </div>
 
 <div class="container" id="p0">
@@ -125,7 +217,6 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
-        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -133,32 +224,27 @@ body {
         <td>Ring Dip Isometrics</td>
         <td>Easy</td>
         <td>Triceps, Shoulders</td>
-        <td>Mantling</td>
       </tr>
       <tr>
         <td>Ring Push-ups</td>
         <td>Easy</td>
         <td>Triceps, Pecs</td>
-        <td>Pushing Strength</td>
       </tr>
       <tr>
         <td>X Push-ups</td>
         <td>Easy</td>
         <td>Anterior</td>
-        <td>Core Tension</td>
       </tr>
        <tr>
         <td>Leg-ups</td>
         <td>Easy</td>
         <td> Lower Abs</td>
-        <td>Keeping Feet On</td>
       </tr>
         </tr>
        <tr>
         <td>Pull-ups</td>
         <td>Easy</td>
         <td>Triceps, Lats</td>
-        <td>Ubiqutous</td>
       </tr>
     </tbody>
   </table>
@@ -193,7 +279,6 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
-        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -201,56 +286,41 @@ body {
         <td>Knees/Full Ring Flies</td>
         <td>Hard</td>
         <td>Shoulders</td>
-        <td>Compression Strength</td>
       </tr>
       <tr>
         <td>Knees/Full Superman Flies</td>
         <td>Hard</td>
         <td>Shoulders, Abs</td>
-        <td>Core Tension</td>
       </tr>
       <tr>
         <td>Ring Dips</td>
         <td>Medium</td>
         <td>Triceps, Pecs</td>
-        <td>Mantling</td>
-      </tr>
-	<tr>
-        <td>Ab Wheel Rollouts</td>
-        <td>Medium</td>
-        <td>Abs, Shoulders</td>
-        <td>Core Tension</td>
       </tr>
       <tr>
         <td>Dragon Flags</td>
         <td>Hard</td>
         <td>Abs, Lats</td>
-        <td>Core Tension</td>
-      </tr>
-	   <tr>
-        <td>Russian Twists</td>
-        <td>Easy</td>
-        <td>Obliques</td>
-        <td>Core Tension</td>
       </tr>
       <tr>
         <td>Planche Push-ups</td>
         <td>Medium</td>
         <td>Triceps, Pecs</td>
-        <td>Pushing Strength</td>
       </tr>
-	<tr>
-        <td>Side Plank</td>
-        <td>Easy</td>
-        <td>Abs</td>
-        <td>Core Tension</td>
-      </tr>
-	    
       <tr>
         <td>Lying/Hanging Windshield Wipers</td>
         <td>Hard</td>
         <td>Obliques</td>
-        <td>Twisting</td>
+      </tr>
+      <tr>
+        <td>Russian Twists</td>
+        <td>Medium</td>
+        <td>Obliques</td>
+      </tr>
+      <tr>
+        <td>Side Planks</td>
+        <td>Medium</td>
+        <td>Obliques</td>
       </tr>
     </tbody>
   </table>
@@ -285,7 +355,6 @@ body {
         <th>Exercise</th>
         <th>Difficulty</th>
         <th>Muscles</th>
-        <th>Example Usage</th>
       </tr>
     </thead>
     <tbody>
@@ -293,31 +362,26 @@ body {
         <td>Scapular pull-ups</td>
         <td>Easy</td>
         <td>Trapezius</td>
-        <td>Ubiquitous</td>
-      </tr>
-	     <tr>
-        <td>I's Y's T's</td>
-        <td>Easy</td>
-        <td>Back</td>
-        <td>Antagonist</td>
       </tr>
       <tr>
         <td>Standing/Hanging Inverted Rows</td>
         <td>Easy</td>
         <td>Trapezius</td>
-        <td>Roofs</td>
       </tr>
       <tr>
         <td>Tucked/Straddled/Full Front Lever</td>
         <td>Hard</td>
         <td>Lats, Trapezius, Triceps</td>
-        <td>Roofs</td>
       </tr>
       <tr>
         <td>Wide-set Pull-ups</td>
         <td>Medium</td>
         <td>Triceps, Lats</td>
-        <td>Ubiquitous</td>
+      </tr>
+      <tr>
+        <td>IYT's</td>
+        <td>Easy</td>
+        <td>Triceps, Back</td>
       </tr>
     </tbody>
   </table>
@@ -344,9 +408,8 @@ body {
     <thead>
       <tr>
         <th>Exercise</th>
-        <th>Sets</th>
-        <th>Reps</th>
-        <th>Example Usage</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
       </tr>
     </thead>
     <tbody>
@@ -354,43 +417,36 @@ body {
         <td>Assisted One-arm Pull-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
-        <td>Ubiquitous</td>
-      </tr>
-	     <tr>
-        <td>Archer Pull-ups</td>
-        <td>Medium</td>
-        <td>Triceps</td>
-        <td>Ubiquitous</td>
       </tr>
       <tr>
         <td>Type-writers</td>
         <td>Medium</td>
         <td>Triceps</td>
-        <td>Lockoffs</td>
       </tr>
       <tr>
         <td>Bar to Chest</td>
         <td>Medium</td>
         <td>Triceps</td>
-        <td>Dynos</td>
       </tr>
       <tr>
         <td>Muscle-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
-        <td>Dynos</td>
       </tr>
        <tr>
         <td>Weighted Pull-ups</td>
         <td>Medium</td>
         <td>Triceps</td>
-        <td>Dynos</td>
+      </tr>
+      <tr>
+        <td>Muscle-ups</td>
+        <td>Medium</td>
+        <td>Triceps</td>
       </tr>
       <tr>
         <td>One-arm Static Bar Holds (30sec)</td>
         <td>Medium</td>
         <td>Hands</td>
-        <td>Ubiquitous</td>
       </tr>
     </tbody>
   </table>
@@ -413,18 +469,13 @@ body {
     <thead>
       <tr>
         <th>Exercise</th>
-        <th>Sets</th>
-        <th>Reps</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Butterfly</td>
-        <td>Easy</td>
-        <td>Adductors</td>
-      </tr>
-	    <tr>
-        <td>Frog Stretch</td>
         <td>Easy</td>
         <td>Adductors</td>
       </tr>
@@ -441,6 +492,11 @@ body {
       <tr>
         <td>Knee-split</td>
         <td>Easy</td>
+        <td>Adductors</td>
+      </tr>
+      <tr>
+        <td>Frog Stretch</td>
+        <td>Medium</td>
         <td>Adductors</td>
       </tr>
     </tbody>
@@ -463,7 +519,7 @@ body {
 </p>
 
 <div class='container' id="p5">
-	<div class="page-header"> <h1> Forming a Plan </h1></div>
+	<div class="page-header"> <h1> Reps + Sets </h1></div>
 
   <h3> Form a plan! Pick 2-3 exercises under each of the following headers and do them 3-4 times a week.  
   You should stick to these for at least ~6 weeks to see results instead of attempting "muscle confusion". </h3>
