@@ -94,12 +94,26 @@ body {
 
 
 <div class="container">
-<h2>Completed Goals</h2>
-<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/41RQW52vf3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/RCCYTvxkQWE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/TxKoh9NIFtU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
 </div>
 
+Band pull - 5 reps * 5 sets  
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/1xEizoLOqmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></br>
+Assisted Dips - 5 reps * 5 sets</br>
+Dips - 5 reps * 5 sets</br>
+Ring hold - 5 seconds 
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/iODfBpAI2hc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></br>
+Weighted Dips - 5 reps * 5 sets
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/CONXdUoBzdI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></br>
+Ring Dips - 5 reps * 5 sets  </br>
+Half Cross - 10 seconds * 3 sets 
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/vK8LxtyKZf0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></br>
+Strap Cross - 5 reps * 5 sets 
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/vH1w7DQhafc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></br>
 
 </body>
 </html>
