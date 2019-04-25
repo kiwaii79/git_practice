@@ -4,10 +4,17 @@ div.top {
 
 .welcome {
   font-family: Cambria;
+  background-color: rgb(85, 26, 139);
+  color: white;
 }
 
 div.column {
   width: 33%;
+  float: left;
+  border-radius: 25px;
+}
+div.column2 {
+  width: 50%;
   float: left;
   border-radius: 25px;
 }
@@ -31,4 +38,19 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 37%;
+}
+
+.smallerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+.largerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
