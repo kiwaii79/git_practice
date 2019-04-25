@@ -1,0 +1,916 @@
+<html>
+<head>
+	
+<title>Chalkwings Training</title>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122864868-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-122864868-1');
+</script>
+<!--each table should be a sequence of progressions...-->
+<style>
+#logo {
+	border: 2px solid black;
+}
+nav-header {
+	background-color: blue
+}
+.circle {
+	border-radius: 50%
+	}
+	
+.opener {
+	background-color: rgba(5,4,2,0.1);
+}
+body {
+	margin-top: 100px;
+	height: 100%
+}
+.jumbotron {
+	background-image: url("ClimbingFit2.jpg");
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	
+}
+.jumbotron h1 {
+	color: #fff
+	font-family: Impact;
+	letter-spacing: 2px
+	
+}
+.jumbotron p {
+	color: #fff
+	
+}
+.bodyarea {
+	-webkit-filter: opacity(30%);
+	filter: opacity(30%);
+	border: 2px solid black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.aboutMe {
+	border: 2px solid black;
+	margin-bottom: 50px
+}
+.bold {
+	font-weight: bold
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="css" href="Climbingdraft.css">
+<!-- Social Media buttons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body data-spy="scroll" data-offset="20">
+<div class ="container" style="width: 100%">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">Home</a>
+	</div>
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="#p0">Suggested Workout</a></li>
+		<li><a href="#p1">Chest</a></li>
+		<li><a href="#p2">Back</a></li>
+		<li><a href="#p3">Arms</a></li>
+		<li><a href="#p4">Legs</a></li>	
+		<li><a href="#p5">Customizing</a></li>	
+		<li><a href="https://rjk79.github.io/tt/about">About Me</a></li>	
+	</ul>
+</nav>
+</div>
+	
+<div class="jumbotron">
+  <div class="container" style="display: flex;
+    justify-content: center;
+    align-items: center;">
+  <h1 style="color: #fff; height: 100vh" class ="opener" align="center"> CHALKWINGS TRAINING <img src="cw167.png" class="center circle" style="height:100px; width:100px"> </h1> 	
+  <p class="opener">Elevate your Rock Climbing using targeted, structured exercises to enhance performance and consistency.</p> 
+  </div>
+</div>
+<!--
+	
+<div class="container" style="margin-bottom: 30px">
+	<div class="row">
+    	<div class="col-sm-4">
+        	<div class="part-image">
+        		<a href="https://rjk79.github.io/tt/dipsandironcross">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>
+            	<div class="centered"><h3>Pushing Strength</h3></div> 
+        </div>
+        </div>
+            
+        <div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/fliesandplanche">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Compression</h3></div>
+		</div>
+   		</div>
+   		
+   		<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/dragonflag">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Core Tension</h3></div>
+		</div>
+   		</div>
+	</div>
+</div>	
+<div class="container" style="margin-bottom: 30px">
+	<div class="row">
+    	<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/supermanflies">
+            	<img src="purplebutton.png" class="img-responsive ">
+            	</a>        
+            	<div class="centered"><h3>Overhead Shoulders</h3></div>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/windshieldwiper">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Twisting</h3></div>
+		</div>
+   		</div>
+   		
+   		<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/frontlever">
+            	<img src="purplebutton.png" class="img-responsive ">
+            	</a>        
+            	<div class="centered"><h3>Core Tension 2</h3></div>
+		</div>
+   		</div>
+	</div>
+	
+</div>
+	
+<div class="container">
+	<div class="row">
+    	<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/invertedrows">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Shoulder Blade Retraction</h3></div>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/onearmpullups">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Arms</h3></div>
+		</div>
+   		</div>
+   		
+   		<div class="col-sm-4">
+        	<div class="part-image">
+				<a href="https://rjk79.github.io/tt/muscleup">
+            	<img src="purplebutton.png" class="img-responsive">
+            	</a>        
+            	<div class="centered"><h3>Power</h3></div>
+		</div>
+   		</div>
+</div>
+	
+</div>
+-->
+<hr>
+<div class="container">
+<!--Links  -->
+  <h2>Hello! </h2>
+  <p>Are you new to climbing but trying to get a fast start or an experienced one trying to get to the next level?  
+  If you are, check out the Progressions section for a slough of climbing-specific exercises! 
+  </br>
+  </br>
+  <button data-toggle="collapse" data-target="#myCollapsible5" class="btn btn-primary">Show/Hide Exercise Themes</button>
+    <div id="myCollapsible5" class="collapse"> 
+  There are a few common characteristics of the exercises I have included: </p>
+  <p> <span class="bold">Bodyweight:</span> Being able to manipulate your body is one of the most important aspects of climbing and because this is already
+  very challenging, added weight is usually unnecessary. </p>
+  <p>
+  <span class="bold">Free-weight:</span> Being able to manage mobile weight focuses your core and saves time by working out multiple muscles at once. As a result of this, however, proper form is very important.
+  </p>
+  <p>
+  <span class="bold">Targeted:</span> While climbing can challenge almost every part of your body, it is most efficient to train only certain parts in order to 
+   see noticeable progress, save time/energy and prevent unnecessary mass gain.
+  </p>
+  
+</div>
+<div class="container" id="p0">
+    <div class="page-header"> 
+	<h1 class="bg-info"> My Current Workout ;) </h1>
+</div>
+	<!--
+	<button data-toggle="collapse" data-target="#myCollapsible0" class="btn btn-warning">Show/Hide Suggested Workout</button>
+    <div id="myCollapsible0" class="collapse">  -->
+<p>
+<!--
+	<h2>Coming Soon:</h2>
+	Animal Walks </br>
+	Reverse Skin the Cat</br>
+	Asymmetrical Flies</br>
+	Russian Dips </br>
+-->
+10/2018</br>
+Depth Jumps</br>
+Squat Jumps</br>
+Front Lever</br>
+Weighted One-Arm Pull-Ups</br>
+30degree Cross</br>
+Compressions</br>
+	
+9/2018</br>
+	<a href = "https://www.youtube.com/watch?v=357JIuFF4-Q"> Swinging Ring Support Hold </a> 15 secs x 1 set </br>
+30 Degree Ring Cross 10 secs x 3 sets 3min rests</br>
+Straight Lever Pulls 5reps x 3 sets 3min rests</br>
+<a href = "https://youtu.be/dtsrFeWjx3g?t=698"> Tucked Planche Swings </a> 10reps x 3 sets 3min rests</br>
+Repeaters on 7mm edge 6reps x 3 sets 3min rests</br>
+<a href = "https://youtu.be/dtsrFeWjx3g?t=1049"> Ring Taps </a> 5reps x 3 sets 3min rests</br>
+Weighted (+35lb) Repeaters on 10mm edge with 6reps x 3 sets 3min rests</br>
+ Dragon Flags 3reps x 3 sets 3 min rests</br>
+<a href = "https://youtu.be/yUkD5fBD3rA?t=266"> Asymmetrical Ring Flies </a> 10 reps x 3 sets 3min rests</br>
+One Arm Flies 10 reps x 3 sets 3min rests</br>
+Weighted One-Arm Pullups 1rep x 3 sets 3min rests 5lb</br>
+</br>
+</br>
+<div class="container" id="p0">
+    <div class="page-header"> 
+	<h1 class="bg-info"> Climbing Session Workouts </h1>
+</div>
+	
+	<strong> Pyramid (Endurance):: </strong> </br>
+[Your max V grade minus 3]:  Do 4 climbs at this grade. </br>
+[Your max V grade minus 2]:  Do 3 climbs at this grade. </br>
+[Your max V grade minus 1]:  Do 2 climbs at this grade. </br>
+[Your max V grade]:  Do 1 climb at this grade. </br>
+</br>
+<strong> Ladder (Endurance): </strong> </br>
+Do one climb at each V grade, starting at V0, until you reach [your max V grade].  Then do work your way down the grade scale. </br>
+</br>
+<strong> Four by Four (Power-Endurance): </strong> </br>
+Step 1: Choose 4 boulder problems that are [your max V grade -2].  </br>
+Step 2: Attempt each of them once without taking breaks between problems.  </br>
+Step 3: Rest for 4 minutes. </br>
+Step 4: Repeat steps 2 and 3, three more times.</br>
+</br>
+<strong> Red Point (Power): </strong> </br>
+Attempt all boulder problems at [your max V grade] in the gym.  Only give each problem 3 attempts at most.</br>
+</br>
+<strong> Foot Cuts (Core Tension):  </strong> </br>
+Choose a boulder problem.  Each time you grab a new hold, simultaneously remove both feet from the wall. Then squeeze your core and place them back on.  </br>
+</br>
+<strong> No Readjustments (Hand and Foot Placement):  </strong> </br>
+Choose a boulder problem.  Each time you grab or step on a new hold, you cannot shift around on it to find a better position.  </br>
+</br>
+<strong> One Hold Type (Hand and Foot Placement):  </strong> </br>
+Choose a boulder problem and a type of hold (Sloper, Pincher, Undercling, Sidepull, Crimp).  Whenever you grab a hold, you must grip it as if it was the chosen hold type.  </br>
+</br>
+<div class="page-header"> 
+	<h1 class="bg-info"> Intermediate Workout </h1>
+</div>
+<h3> Week 1-3 </h3>  </br>
+- Choose 3 Non-consecutive days to do this workout (8MinuteAbs can be everyday) (takes about 1 hour)</br>
+- take a minute of rest after every bullet point </br>
+•	(Optional) Lose Weight -- Jump Rope for 10 min or Traverse for 10 min</br>
+•	Core -- <a href="https://www.youtube.com/watch?v=sWjTnBmCHTY">Abs</a> </br>
+ </br>
+Repeat the following list 3 times:</br>
+•	Vertical Pull -- Do as many <a href = "https://www.youtube.com/watch?v=QH0dDfyF7QM">L-Sit Pull-ups</a> as you can.  Afterwards, do as many normal pull-ups as you can with a elastic band</br>
+ </br>
+•	Horizontal Push -- Do as many <a href = "https://www.youtube.com/watch?v=2qa1avIsLaA">X-Push-ups</a> as you can. Afterwards, do as many normal push-ups as you can </br>
+ </br>
+•	Fingers -- 6 <a href = "https://youtu.be/7bS-19Cl8Kk?t=120 ">Repeaters</a>  </br>
+ </br>
+•	Vertical Push -- Do as many <a href = "https://www.youtube.com/watch?v=IOlHTsmfr68 ">Assisted Dips</a> as you can </br>
+</br>
+•	Horizontal Pull -- Do as many <a href = "https://www.youtube.com/watch?v=Qj8ixEU638M">Ring Rows</a> as you can  </br>
+</br>
+•	Shoulders -- 5 <a href = "https://www.youtube.com/watch?v=icD6a_JcCbQ"> Depression Scapular Pull-Ups</a>  </br>
+</br>
+•	Shoulders -- 5 <a href = "https://youtu.be/6P9r0UAdwXM?t=69">Retraction Scapular Pull-Ups</a> </br>
+ </br>
+<h3> Week 4-6 </h3>
+- Choose 3 Non-consecutive days to do this workout (takes about 1 hour) </br>
+- take a minute of rest after every bullet point </br>
+•	(Optional) Lose Weight - Jump Rope for 10 min or Traverse for 10 min </br>
+Repeat the following list 3 times: </br>
+•	Core – Do as many <a href = "https://youtu.be/riAutegDqdI?t=73"> V-Ups </a> as you can </br>
+<a href = "https://youtu.be/riAutegDqdI?t=73"> </a>
+</br>
+•	Core – Do as many <a href = "https://www.youtube.com/watch?v=NeAtimSCxsY">Russian Twists </a> as you can with 10 lbs. </br>
+</br>
+•	Vertical Pull - Do as many Pull-ups as you can.  Afterwards, do as many normal pull-ups as you can with a elastic band </br>
+</br>
+•	Horizontal Push - Do as many <a href = "https://www.youtube.com/watch?v=7enjS7Y2LYc">Ring Push-ups </a> as you can. Afterwards, do as many normal push-ups as you can </br>
+</br>
+•	Fingers - 6 <a href = "https://youtu.be/7bS-19Cl8Kk?t=120">Repeaters </a> with 2.5 lbs held by feet. 10 or 15mm edge </br>
+</br>
+•	Vertical Push – 10 sec <a href = "https://www.youtube.com/watch?v=C07M-t0_Vxg">Ring Support Hold </a> </br>
+</br>
+•	Horizontal Pull - Do as many <a href = "https://www.youtube.com/watch?v=RTPzzjQQYIU">One Arm Ring Rows</a> as you can </br>
+</br>
+•	Shoulders - 5 <a href = "https://www.youtube.com/watch?v=a8n_V0oiifw">One Arm Depression Scapular Pull-Ups</a>. </br>
+</br>
+•	Shoulders - 5 <a href = "https://www.youtube.com/watch?v=OYRAFPM2yDI">Tucked Lever Pulls</a> </br>
+</br>
+<h3> Week 7-9 </h3>
+- Choose 3 Non-consecutive days to do this workout (takes about 1 hour)
+- take a minute of rest after every bullet point 
+•	(Optional) Lose Weight - Jump Rope for 10 min or Traverse for 10 min
+</br>
+Repeat the following list 3 times:
+</br>
+•	Core – 15 <a href = "https://www.youtube.com/watch?v=l4kQd9eWclE">Leg-Ups</a>
+</br>
+•	Core – 6 (3 on each side) <a href = "https://www.youtube.com/watch?v=hrS3QsNqvTQ">Lying Windshield Wipers</a>
+</br>
+•	Core – 5 <a href = "https://youtu.be/aEgyCi1J1qI?t=83">Knee Ab Wheel Rollouts</a>. Don’t count reps where you can’t come back up.
+</br>
+•	Vertical Pull - Do as many Pull-ups as you can.  Afterwards, do as many normal pull-ups as you can with a elastic band
+</br>
+•	Horizontal Push - Do as many <a href = "https://www.youtube.com/watch?v=svLqaM6-cnQ">Knee Flies</a> as you can. Afterwards, do as many normal push-ups as you can
+</br>
+•	Fingers – 5sec Max Hang with 5lb held by feet. 10 or 15mm edge
+</br>
+•	Vertical Push – Do as many Dips as you can
+</br>
+•	Horizontal Pull - Do as many <a href = "https://www.youtube.com/watch?v=OH3QZB8oDkg">Inclined Ring Rows</a> as you can 
+</br>
+•	Shoulders – 5 <a href = "https://www.youtube.com/watch?v=UZ4XlVNmGtk">One Leg Lever Pulls</a>
+</br>
+<div class="page-header"> 
+	<h1 class="bg-info"> Finger Strength Exercises (Tendons) </h1>
+</div>
+</br>
+</br><h3>Hangboard</h3>
+</br>
+</br>Variation 1: Repeaters <a href = "https://www.youtube.com/watch?v=8YTn7qEpxtU">Demo Video</a> </br>
+</br>Choose a pair of edges that are 10-15mm and can hold all four fingers.  Using an open-crimp position, hang off the edges for 7 seconds then rest for 3 seconds.  Repeat this 5 more times for a total of 6 hangs.
+</br>
+</br>Variation 2:
+</br>Do hangboard Repeaters using different pockets and edges
+</br>
+</br>Variation 3: 
+</br>Do hangboard Repeaters using less fingers
+</br>
+</br>Variation 4: Max Hangs
+</br>Choose a pair of edges that are 10-15mm and can hold all four fingers.  Attach weight to yourself using a harness or weight vest.
+</br>Using an open-crimp position, hang off the edges for at least 5 seconds then rest for at least 5 mins.  Repeat this 4 more times for a total of 5 hangs.
+</br>
+</br>Variation 5: One Arm Hangs
+</br>Choose a pair of edges that are 10-15mm and can hold all four fingers. Use a pulley system to provide a counter weight so you are lighter.
+</br>Using an open-crimp position, hang off the edges for at least 5 seconds then rest for at least 5 mins.  Repeat this 4 more times for a total of 5 hangs.
+</br>
+</br><h3>Campus Board</h3> 
+</br>
+</br>Variation 1: 
+</br>Using an open-crimp position, go up the campus board using every rung and match on each before going up to the next one.
+</br>
+</br>Variation 2: 
+</br>Variation 1 without matching rungs.
+</br>
+</br>Variation 3:
+</br>Variation 1 while skipping rungs.
+</br>
+</br>Variation 4: Dynoing
+</br>With both hands on the bottom rung. reach up to the highest rung you can.
+</br>
+</br>Variation 5: 
+</br>Do Variation 4 then reach as high as you can with you’re other hand.
+</br>
+</br>Variation 6: Bumping <a href = "https://www.youtube.com/watch?v=xLPdz0n5hkE">Demo Video</a> 
+</br>With both hands on the bottom rung, move one hand up to the next rung, then the next rung, etc until you cannot go further.
+</br>
+</br>Variation 7: Alternating <a href = "https://www.youtube.com/watch?v=RhAutTnvAgQ">Demo Video</a> 
+</br>With both hands on the bottom rung, move one hand up to a higher rung then bring it back down to the bottom rung and repeat.  Adjust difficulty by adding reps and reaching higher.
+</br>
+</br>Variation 8: Downclimbing
+</br>Do Variation 1 then down climb using every rung.
+</br>
+</br>Variation 9: Swapping
+</br>Not advised for beginners.  With hands on different rungs, simultaneously swap which rungs they’re on and repeat.
+</br>
+</br>Variation 10: Double clutching
+</br>Not advised for beginners. With both hands on the bottom rung, simultaneously reach up for a higher one using both hands.</br>
+</br>
+<img src = "mascotstand.png" class = "center">
+<div class="page-header"> 
+	<h1 class="bg-info"> Progression Exercises (Muscles) </h1>
+</div>
+</br>Work on the first exercise of each Progression list.   Once you are able to do the full amount of reps + sets in one session, try adding reps + sets until you can do the next exercise in the list. (videos to come!)
+ 
+</br>
+<h3>1. Dips and Iron Cross Prog.</h3> </br>
+Band pull - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=1xEizoLOqmA">Demo Video</a> </br>
+Assisted Dips - 5 reps * 5 sets</br>
+Dips - 5 reps * 5 sets</br>
+Ring hold - 5 seconds <a href = "https://www.youtube.com/watch?v=iODfBpAI2hc">Demo Video</a></br>
+Weighted Dips - 5 reps * 5 sets</br>
+Ring Dips - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=CONXdUoBzdI">Demo Video</a> </br>
+Half Cross - 10 seconds * 3 sets <a href = "https://www.youtube.com/watch?v=vK8LxtyKZf0">Demo Video</a> </br>
+Strap Cross - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=vH1w7DQhafc">Demo Video</a> </br>
+ </br>
+<h3>2. Flies and Planche Prog.</h3></br>
+Push-ups - 10 reps * 3 sets</br>
+X push-ups - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=IOQjVhXOEeo">Demo Video</a> </br>
+Push-ups (on rings) - 5 reps * 5 sets<a href = "https://www.youtube.com/watch?v=7enjS7Y2LYc">Demo Video</a></br>
+Ring Flies (on knees, feet up) - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=svLqaM6-cnQ">Demo Video</a> </br>
+Ring Flies (on knees, feet down) - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=sMB6GrrRX2Y">Demo Video</a> </br>
+Ring Flies - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=Q1hgPfcooGc">Demo Video</a> </br>
+Pseudo Planche Pushups - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=CVUM4BKIbf8">Demo Video</a> </br>
+Raised Ring Flies - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=PNo7ZEUtOms">Demo Video</a> </br>
+ </br>
+<h3>3. Dragon Flag Prog.</h3></br>
+Lying Leg Raises - 10 reps * 3 sets <a href = "https://www.youtube.com/watch?v=qJt-Ah-lWCw">Demo Video</a> </br>
+V-ups - 10 reps * 3 sets</br>
+Leg-ups - 10 reps * 3 sets <a href = "https://www.youtube.com/watch?v=g2R_Y9rE0Hg">Demo Video</a> </br>
+Toes to Bar - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=X4n7GKTQhwg">Demo Video</a> </br> 
+Dragon Flag - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=gub2VJbEF-c">Demo Video</a> </br>
+ </br>
+<h3>4. Superman Flies Prog.</h3></br>
+Plank - 90 seconds</br>
+Crunches - 40 reps * 1 set</br>
+Ab Wheel Rollouts - 5 reps * 5 sets</br>
+Knee Superman Flies - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=hZFOcyaL_ds">Demo Video</a> </br>
+Superman Flies (one arm) - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=Ubd5IHuYlTo">Demo Video</a> </br>
+Superman Flies - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=svq_tDPVl9A">Demo Video</a> </br>
+ </br>
+<h3>5. Windshield Wiper Prog.</h3></br>
+Side planks - 90 seconds</br>
+Side Crunches - 40 reps * 1 set <a href = "https://www.youtube.com/watch?v=E3pHxKVfsz0">Demo Video</a> </br>
+Thread the Needle- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=xXyIJAg8LFU">Demo Video</a> </br>
+Russian Twists- 10 reps * 3 sets <a href = "https://www.youtube.com/watch?v=jIStaPoxupI">Demo Video</a> </br>
+Windshield Wipers (ground) - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=hrS3QsNqvTQ">Demo Video</a>  </br>
+Windshield Wipers (tucked, on bar) - 5 reps * 5 sets<a href = "https://www.youtube.com/watch?v=xM5ojvBKI94">Demo Video</a></br> 
+Windshield Wipers (extended, on bar) - 3 reps * 5 sets <a href = "https://www.youtube.com/watch?v=cQPehma273s">Demo Video</a> </br>
+</br>
+<h3>6. Front Lever Prog.</h3></br>
+Scapular Shrugs - 5 reps * 5 sets</br>
+Scapular Pull-ups (tucked) - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=OYRAFPM2yDI">Demo Video </a> </br>
+Assisted Lever Pull - 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=q5hXGcAETFM">Demo Video</a> </br>
+Scapular Pull-ups (one leg out or straddle)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=zymHuZDnD5U">Demo Video</a> </br>
+Front Lever- 5 seconds<a href = "https://www.youtube.com/watch?v=TxKoh9NIFtU">Demo Video</a></br>
+ </br>
+<h3>7. Inverted Row Prog.</h3></br>
+Inverted Ring Rows (leaning)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=wZPKoq1Ydcg">Demo Video</a> </br>
+Inverted Ring Rows (one arm)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=C3F4ltRbDOE">Demo Video</a> </br>
+Inverted Ring Rows (legs propped up)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=OH3QZB8oDkg">Demo Video</a>  </br>
+Inverted Ring Rows (hanging)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=dZQMlqx9aOk">Demo Video</a> </br>
+ </br>
+<h3>8. One Arm Pull-up Prog.</h3></br>
+Assisted Pull-ups- 5 reps * 5 sets</br>
+Pull-ups- 5 reps * 5 sets</br>
+One Arm Bar Hold- 30 seconds</br>
+Shoulder Pull-ups (One Arm)- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=MjawoDfKqf0">Demo Video</a> </br>
+Weighted Pull-ups- 5 reps * 5 sets</br>
+Archer Pull-ups- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=P-jeGDxcQZY">Demo Video</a>  </br>
+Typewriters- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=fTP7rupsLCg">Demo Video</a></br>
+One-Arm Pull-ups- 5 reps * 5 sets <a href = "https://www.youtube.com/watch?v=RCCYTvxkQWE">Demo Video</a></br>
+Weighted One-Arm Pull-ups- 5 reps * 5 sets</br>
+</br>
+<h3>9. Muscle-up Prog.</h3> </br>
+Wide-set Pull-ups- 5 reps * 5 sets</br>
+Bar to Chest- 5 reps * 5 sets</br>
+Muscle-ups- 5 reps * 5 sets<a href = "https://www.youtube.com/watch?v=41RQW52vf3U">Demo Video</a></br>
+</p>
+<!-- </div> -->
+</div>
+<img src= "mascotlie.png" class = "center">
+<div class="container">
+	<h1>40 Tips for Rock Climbing</h2>
+Step using the tip of your shoe.  Use the point of your shoe to step on holds and be conscious of whether the left edge, right edge, or center point should be used. </br>
+Keep your arms straight. Keep them straight as often as you can but if you need to move into a powerful move soon after then keep them slightly bent since pulling up from a straight arm position is much harder. Also bend them at the later stage of a movement if it is very long.</br>
+Stay close to the wall, especially your hips.  Unless you need to jump out over an overhang in which case staying close will increase your swing.</br>
+Look at your hands and feet as you place them. A good exercise is to count to 2 before you a place a hand or foot on a hold.  It has been reported that using your eyes is vastly more important than feeling that your toe on a hold or hearing your toe step on a hold.</br>
+Step on holds silently.  This will ensure that you are moving with control and not rushing things desperately.</br>
+Read the route from the ground. Condition the correct neurons for firing quickly, in sync, and on time by pantomiming the moves from the ground even though it may look silly.</br>
+Use same side-foot to reach with a hand.  For example, if you are reaching up with your right hand try to step off hard from your right foot.  Harder climbs may force you to use the opposite foot.</br>
+Turn away from the direction you are reaching.  This is useful on overhangs.  If you are reaching up with your right hand, turn your body to the left while making the move.</br>
+Drop knees.  This facilitates the above movement.  If you are on an overhang and you have a relatively high foot, turn your body to the opposite side you are reaching by stepping on the hold and then turning your knee downwards.</br>
+Hand match by using piano matching as often as you can.  This means removing a finger at a time from one hand while placing a finger on one at a time with the other hand.</br>
+Minimize the force you use to grab holds.  If you can hang on a hold by grabbing less hard, then do it.  Grab harder only when you need to like when you are powering off a hold.</br>
+Foot matching is best done by first crossing your heels and placing your toes over each other.  Wiggle your lower foot out rapidly then let your new foot drop into place.</br>
+Learn how to use different hold types: slopers, jugs, crimps, pinchers, finger pockets. </br>
+Slopers are often best gripped in a meat hook position where your fingers are pointing along the wall rather than towards the wall.  Your fingers can face either direction.  Meat hooking likely works because the human hand can exert greater grip strength if the wrist is angled slightly outwards.  If you are meat hooking multiple slopers you can create compression or expansion oppositional forces which will hold you on the wall.  Keep your wrist flexed downwards whenever possible relative to your hand to increase friction.  This is assisted by staying low with your whole body when on slopers.  When moving on slopers, move slowly since they are obviously often slippery. </br>
+Jugs are great for rests. Learn how to abuse them by heel hooking, toe hooking them, etc.</br>
+Crimps should be grabbed open handed as often as possible when you first start climbing so as to protect your tendons.  This means not bending your fingers back when grabbing them.  A closed grip, which usually means putting your thumb over your index fingers, can be useful to execute moves when you need to weight crimps more and you are an experienced climber.</br>
+Use your thumb whenever you can, especially on pinchers.  Taking advantage of opposition is very important in climbing and your thumbs are valuable for providing oppositional force relative to your fingers.  Even if it feels slightly awkward to stretch your grip around a large pincher, it may be what you need.</br>
+For finger pockets, prioritize using your middle two fingers whenever you can since they can exert the most force.  You can switch to other fingers to rest your strongest ones though.</br>
+Avoid readjusting when you place a foot/hand down.  A good exercise is trying a group of routes but not letting you move your hands or feet once you place them on a hold.  This will teach accurate placement.</br>
+Maximize the number of fingers you put on holds.  Each time you let a finger slip off, you can imagine that you are reducing your force by 25% since you have 4 fingers.</br>
+Leave or make room to put both hands on holds when you expect that you will need to.</br>
+Balance using your leg to counterbalance.  A good exercise is standing with your legs together and arms straight above your head.  Slowly lower one arm and then raise one leg to counteract the movement and balance.  Repeat with the other side.</br>
+Memorize holds underneath ledges or around aretes.  You probably won’t be able to locate them in the moment.  Use chalk lines to indicate where they are.</br>
+Smear more and harder.  Smearing can allow you to pincer around an arete which creates opposition with your legs like a bike.</br>
+Learn to flag.  Use the side of your foot instead of the front of your foot when doing large “drive by” moves to flag especially hard. Instep flagging will feel better when standing upright than back flagging.</br>
+Mantling.  Use the muscle below your armpit to mantle higher rather than your arms, which should be straight.</br>
+Heel hooking -  Have knee pointing away from wall while you set the heel down.  Point toe down to lock it as knee/shin bone moves towards the wall.</br>
+Toe hooking - This is more about using core tension rather than using leg muscles.  Throw your body backwards, away from your toe hook, if you need to gain tension.</br>
+Dynos - You can do straight arm vs bent arm dynos depending on steepness. look at the target hold while in the air. bend your arms to control the swing</br>
+Knee locks - Adjust the angle of your shin bone to make it fit.</br>
+Biking - Simultaneously Toe hooking and stepping down on a hold with a foot will keep your foot in place.</br>
+Camming - Often when heel hooking you can turn your toes into the wall hard to jam your foot in place.</br>
+Use opposition to stay on wall.  Expansion and compression will keep you on the wall when the individual holds themselves will not.  This means pulling holds away from each other or pushing them towards each other.</br>
+Look for chalk and rubber on the holds to determine where to grab them.  This can suggest heel/toe hooks which are tricky to assume otherwise.</br>
+When climbing dynamically, use momentum from eccentric movements to make large moves.  So when reaching a certain direction, move the opposite way first to gain momentum.  When climbing statically let the momentum dissipate before making another move.  It’s good to try both methods on a given move.</br>
+Use bolt holes on holds. </br>
+Use aretes even if momentarly.</br>
+Use volumes properly.  Step on outermost portion to keep body angled into wall even though it is counterintuitive.</br>
+Use pogos for stepping off a foot which is on the opposite side relative to the one you are reaching.  This utilizes leg momentum and you want to swing your same-side foot while keeping it straight.</br>
+Point your toe down on holds that are angled down.  This is especially important on overhangs.</br>
+Head momentum - Throwing your head into the wall while you make a move can assist in keeping you into the wall.</br>
+Start with non-stepping foot as close to wall as possible when getting up on the starting holds.  This way it doesn’t have to fly into the proper flagging position which would waste energy and potentially throw you off balance. </br>
+Use warm up to calibrate your feet and ensure they are taking as much weight as possible.</br>
+Sync your exhaling with your with movements.</br>
+The most important muscles to train are your trapezius, rhomboids, triceps, and lats.</br>
+Climb faster.  If you can do the same moves but in a shorter amount of time without swinging recklessly, you are objectively climbing better.  Your performance/max strength will drop significantly after being on the wall roughly more than a minute. </br>
+Learn dyno techniques. Look at the target hold as you jump; don’t close your eyes. If you need to also move horizontally, the lead foot should point in that direction and the back foot should point into the wall. When controlling the target hold, bend your biceps to control the swing and straddle+bend your legs. Aiming your fingers a few inches more into the wall can help you reach the target hold. Squat stretches and depth jumps can improve jump height.</br>
+If a move seems far, you can line it up with your wingspan from the ground, count the number of bolt holes it spans, and measure the distance from the nearest foot chip to evaluate it better.</br>
+View climbs from multiple angles. Even pros keep their chalk bags far from the wall or use liquid to chalk to stall themselves and thus, to force themselves to look at the wall from different perspectives and take longer breaks.</br>
+Sometimes different shoes do make a difference. Adam Ondra will wear two different shoes at once if he needs to stick a critical heel hook.</br>
+Stretch more. Akiyo Noguchi was allowed to use a volume from a completely different but neighboring climb since she had enough, strong active flexibility to reach it.</br>
+Use passive flexibility instead of active whenever possible.</br>
+Learn calisthenics/gymnastics for basic principles.</br>
+Doing yoga doesn’t make for a great rest day.</br>
+Lead movements with your hips. Campusing can help teach this.</br>
+</div>
+<div class="container" id="p1">
+<div class="page-header"> 
+	<h1 class="bg-info"> Chest </h1>
+	</div>
+  <table class = "table table-striped">
+    <thead>
+      <tr>
+        <th>Exercise</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Knees/Full Ring Flies</td>
+        <td>Hard</td>
+        <td>Shoulders</td>
+      </tr>
+      <tr>
+        <td>Knees/Full Superman Flies</td>
+        <td>Hard</td>
+        <td>Shoulders, Abs</td>
+      </tr>
+      <tr>
+        <td>Ring Dips</td>
+        <td>Medium</td>
+        <td>Triceps, Pecs</td>
+      </tr>
+      <tr>
+        <td>Dragon Flags</td>
+        <td>Hard</td>
+        <td>Abs, Lats</td>
+      </tr>
+      <tr>
+        <td>Planche Push-ups</td>
+        <td>Medium</td>
+        <td>Triceps, Pecs</td>
+      </tr>
+      <tr>
+        <td>Lying/Hanging Windshield Wipers</td>
+        <td>Hard</td>
+        <td>Obliques</td>
+      </tr>
+      <tr>
+        <td>Russian Twists</td>
+        <td>Medium</td>
+        <td>Obliques</td>
+      </tr>
+      <tr>
+        <td>Side Planks</td>
+        <td>Medium</td>
+        <td>Obliques</td>
+      </tr>
+    </tbody>
+  </table>
+<button data-toggle="collapse" data-target="#myCollapsible1" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible1" class="collapse">  
+  <p>
+  <span class="bold">Ring Flies: </span>This is one of my favorite exercises (inspired by Alexander Megos). Ring Flies will allow you to hang more actively on the wall and build compression strength.  Set the rings shoulder-width apart and a few inches off the ground.
+  Put your hands into the rings and rest on your knees.  
+  </br> Variations: 
+  Lean onto your hands and bring them apart so your nose almost touches the ground.
+  To target your pecs more, you can perform these with your arms rotated outwards so your palms are facing away from you.
+  To adjust difficulty you can allow/prevent your feet from lifting up as you go down.
+  Another way to adjust difficulty is to lower down as if you were doing a ring push-up instead of keeping your arms straight throughout the movement. 
+  To do it Flies full difficulty, you can start from a normal push-up position instead.
+  </br><span class="bold">Superman Flies: </span>This is similar to the Ring Flies except when you lean onto your hands, you bring them forward.
+  In this way, they stay roughly shoulder-width apart as you go down. This will target your abs more than the normal Flies.
+  </br><span class="bold">Ring Dips: </span>These are much harder than normal dips and it is recommended you flare the rings out each time you reach the top of the movement.
+  </br><span class="bold">Dragon Flags: </span>Dragon Flags are extremely difficult so one should work up to them using leg-ups and negatives.
+  </br><span class="bold">Planche Push-ups: </span>This an easily-adjustable gymnastics exercise that builds pushing power.
+  </p>
+  </div>
+  </div>
+</div>
+<div class="container" id="p2">
+<div class="page-header"> 
+	<h1 class="bg-info"> Back </h1>
+	</div>
+  <table class = "table table-striped">
+    <thead>
+      <tr>
+        <th>Exercise</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Scapular pull-ups</td>
+        <td>Easy</td>
+        <td>Trapezius</td>
+      </tr>
+      <tr>
+        <td>Standing/Hanging Inverted Rows</td>
+        <td>Easy</td>
+        <td>Trapezius</td>
+      </tr>
+      <tr>
+        <td>Tucked/Straddled/Full Front Lever</td>
+        <td>Hard</td>
+        <td>Lats, Trapezius, Triceps</td>
+      </tr>
+      <tr>
+        <td>Wide-set Pull-ups</td>
+        <td>Medium</td>
+        <td>Triceps, Lats</td>
+      </tr>
+      <tr>
+        <td>IYT's</td>
+        <td>Easy</td>
+        <td>Triceps, Back</td>
+      </tr>
+    </tbody>
+  </table>
+  <button data-toggle="collapse" data-target="#myCollapsible2" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible2" class="collapse">
+  <p>
+  <span class="bold">Scapular Pull-ups: </span>Acquiring scapula (shoulder blade) strength results in greater control of your arms since your scapulae control them.
+  The way to perform these is to hang on a bar with your hands shoulder-width.
+  First, you want to sink your head between your shoulders then you want to shrug so you enter an active hang.
+  </br><span class="bold">Front Lever: </span> The Front Lever is well-known for being the one of the hardest pushing/core exercises amongst gymnasts and for good reason. (inspired by Sean McColl)
+  
+  </p>
+  </div>
+  </div>
+</div>
+<div class="container" id="p3">
+<div class="page-header"> 
+	<h1 class="bg-info"> Arms </h1>
+	</div>
+  <table class = "table table-striped">
+    <thead>
+      <tr>
+        <th>Exercise</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Assisted One-arm Pull-ups</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+      <tr>
+        <td>Type-writers</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+      <tr>
+        <td>Bar to Chest</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+      <tr>
+        <td>Muscle-ups</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+       <tr>
+        <td>Weighted Pull-ups</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+      <tr>
+        <td>Muscle-ups</td>
+        <td>Medium</td>
+        <td>Triceps</td>
+      </tr>
+      <tr>
+        <td>Weight Ring Hold</td>
+        <td>Medium</td>
+        <td>Hands</td>
+      </tr>
+      <tr>
+        <td>One-arm Static Bar Holds (30sec)</td>
+        <td>Medium</td>
+        <td>Hands</td>
+      </tr>
+    </tbody>
+  </table>
+  <button data-toggle="collapse" data-target="#myCollapsible3" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible3" class="collapse">
+  <p>
+  <span class="bold">Type-writers: </span> While lock-off strength is important it is debatable whether simply doing it is the best way of improving it.
+  </br><span class="bold">Bar to Chest: </span> These are pull-ups that are dynamic and build explosive power.
+  </br><span class="bold">One-arm Pull-up: </span> (Inspired by Alex Puccio) While difficult, make sure you squeeze the bar as hard as you can, start with your body perpendicular to the bar, and fold your body inwards.
+  </p>
+  </div>
+  </div>
+</div>
+<div class="container" id="p4">
+<div class="page-header"> 
+	<h1 class="bg-info"> Legs </h1>
+	</div>
+  <table class = "table table-striped">
+    <thead>
+      <tr>
+        <th>Exercise</th>
+        <th>Difficulty</th>
+        <th>Muscles</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Butterfly</td>
+        <td>Easy</td>
+        <td>Adductors</td>
+      </tr>
+      <tr>
+        <td>Side-split</td>
+        <td>Easy</td>
+        <td>Adductors</td>
+      </tr>
+      <tr>
+        <td>Knee to Chest</td>
+        <td>Easy</td>
+        <td>Hip-flexors</td>
+      </tr>
+      <tr>
+        <td>Knee-split</td>
+        <td>Easy</td>
+        <td>Adductors</td>
+      </tr>
+       <tr>
+        <td>Pidgeon Pose</td>
+        <td>Easy</td>
+        <td>Adductors</td>
+      </tr>
+      <tr>
+        <td>Frog Stretch</td>
+        <td>Medium</td>
+        <td>Adductors</td>
+      </tr>
+      <tr>
+        <td>Toe Touch</td>
+        <td>Easy</td>
+        <td>Hamstrings</td>
+      </tr>
+    </tbody>
+  </table>
+  <button data-toggle="collapse" data-target="#myCollapsible4" class="btn btn-warning">Show/Hide Details</button>
+    <div id="myCollapsible4" class="collapse">
+  <p>
+  Lower body strength is not as important as lower body flexibility, namely in the hip flexors and adductors. 
+  This is because flexibility is what allows you to place head-high heel hooks (like Ashima Shiraishi), reach very far high/far footholds, stay closer to the wall, match feet to hands, etc.
+  On the other hand, strength is mostly only tested when stepping off a single foothold with the other leg disengaged or jumping off large holds.
+  A good benchmark is being able to do a single pistol squat on each side.
+  </p>
+</div>
+</div>
+</div>
+<img src = "mascotfly.png" class = "center">
+ <div id="myCarousel" class="carousel slide center" data-ride="carousel" style="width: 500px; margin-bottom: 30px">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="chest4.jpg" alt="Los Angeles" style="width:100%;"">
+      </div>
+      <div class="item">
+        <img src="legs4.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="legs3.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+  </div>
+<div class='container' id="p5">
+	<div class="page-header"> <h1> Customizing </h1></div>
+  <h3> So you want to form your own plan? Great idea! Pick 2-3 exercises under each of the following headers and do them 3-4 times a week.  
+  You should stick to these for at least 6 weeks to see results.  Try not to cause "muscle confusion". </h3>
+  <p class="well">If training power, complete 5 sets each with 5 reps. 
+  Take up to 3 minutes rest between sets.  You can take more or less time as long as you feel fully recovered before starting new sets.  
+  During the following week, you should try to add 1 more rep to each set.  
+  Then, once you can do 7-10 reps per set, you would need to add ~5% more weight (factoring bodyweight) and reset to 5 reps/set. </p> 
+  <p class="well">If training endurance, complete 3 sets each with 10 reps. Take .5-1 minute rest between sets. 
+  You want to take shorter rests so that you work out your muscles to exhaustion.  
+  Also, you should do as many reps as you are able in the final set. 
+  During the following week, you should try to add 1 more rep to each set.  
+  Then, once you can do 15-20 reps per set, you would need to add ~5% more weight (factoring bodyweight) and reset to 10 reps/set</p> 
+  <p>Don't overexert yourself. This goes without saying but there are a lot of options at your disposal you're feeling overworked:
+  	</br>Reduce weight
+  	</br>Switch to a different variation of the exercise
+  	</br>Hold in the contracted position (isometric)
+  	</br>Come out of the contracted position slowly (perform a negative/eccentric)
+  	</br>Stop the set
+  </br>As you can see, there are many options that aren't even mutually exclusive that can keep you safe from injury but still keep your time-under-tension high per set (~40sec).
+  	</p>
+</div>
+<div class="container">
+<h2>Completed Goals</h2>
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/41RQW52vf3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/RCCYTvxkQWE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/TxKoh9NIFtU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<div class ='container'>
+<h1> Useful Links </h1>																		 
+<a href="http://trainingforclimbing.com/">Eric Horst
+				       </a></br>
+<a href="https://www.trainingbeta.com/">Training Beta
+				       </a></br>
+<a href="http://en-eva-lopez.blogspot.com/">Eva Lopez
+				       </a>				  
+<!--
+<a href="https://www.youtube.com/channel/UCvkGOw5JmJ3TPdXNiEFwq6Q">Mani the Monkey
+				       </a>
+								  
+<a href="https://www.youtube.com/user/TheMiamiTrainer">THENX
+				       </a>
+<a href="https://www.youtube.com/watch?v=KdKvBRSx0_A">Splits Routine
+				       </a>
+<a href="https://www.youtube.com/user/kaiwinbot">Ten Thousand Method
+						</a>
+<a href="https://www.youtube.com/watch?v=sWjTnBmCHTY">8 Minute Abs
+						</a>
+<a href="https://www.youtube.com/user/JDCav24">Athlean
+						</a>
+<a href="https://www.youtube.com/channel/UCPx2nKfFk4p6IkQsMW9O0xQ/featured">Vahva Fitness
+						</a>					      
+-->																		 
+<div class='container' id="p6">
+	<div class="page-header"> 
+	<h1> Who Am I? </h1>
+	</div>
+	<p> Hey, my name is Robby! I started climbing in 2014 when I decided to take a Climbing PE class at my undergrad school, Cornell University, on a whim. 
+	Because I enjoyed climbing so much, I decided to continue climbing at a local gym where I have instructed many classes and have been pushing V9.  
+	I've incorporated all of these exercises into my routine at one point or another so I hope you find them useful too!
+	</p>
+</div>
+<img src="GardenMe.png" class="center aboutMe">
+</div>
+<div class="opener">
+<p align="center">
+<a href="https://www.facebook.com/openingsky" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/robbin4apples/?hl=en" class="fa fa-instagram"></a>
+rjk244@cornell.edu
+</p>
+</div>
+</body>
+</html>
