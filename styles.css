@@ -1,0 +1,34 @@
+div.top {
+  background-color: lightblue;
+}
+
+.welcome {
+  font-family: Cambria;
+}
+
+div.column {
+  width: 33%;
+  float: left;
+  border-radius: 25px;
+}
+
+#description {
+  color: gray;
+}
+
+li {
+  font-size: 16pt;
+  font-family: Arial;
+}
+
+
+ul li {
+  font-family: Cambria;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
